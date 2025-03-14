@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-import javax.net.ssl.TrustManager;
-import javax.swing.plaf.TreeUI;
+
 
 public class Guesser {
     public static void main (String[] args) {
@@ -37,6 +36,7 @@ public class Guesser {
         boolean repeat_guessing_loop = true;
         
         while (repeat_guessing_loop) {
+            System.out.println("What is your guess?");
             int current_guess = scanner_variable.nextInt();
             System.out.println("You guessed: " + current_guess);
             
