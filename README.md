@@ -37,3 +37,4 @@ Interpret the user's input
   - If H, set `max` to a vaulue of (`guess` - 1)
   - If L, set `low` to the value of (`guess` + 1)
   - If C, print "Correct!" and set the repeat variable to false
+  - add 1 to `counter`
