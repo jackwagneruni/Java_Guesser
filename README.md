@@ -17,9 +17,10 @@ Interpret the user's input
 2: start computer guesser class
 
 ## Human Guesser Mode
-1. Create variable `counter`  and assign the int 0
+1. Create variable `counter` and assign the int 0
 2. Calculate a random number between 1 and 100
 3. Repeat the following until the user guesses correctly
+  - ask the user to pick a numbrer along with the number of tries they have taken so far
   - If the user took longer than 7 guesses let them know they took too long and set `repeat_guessing_loop` to false
   - If the user guesses too low print that it was too low a guess
   - If the user guesses too high print it was too high a guess
