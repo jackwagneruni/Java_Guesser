@@ -31,14 +31,14 @@ public class Guesser {
 
     } // end of main class
     public static void human_guesser (Scanner scanner_variable) {
-        System.out.println("You are now in the human guesser class");
+        //System.out.println("You are now in the human guesser class");
         int correct_number = (int) (Math.random() * 100) + 1;
-        System.out.println("Correct number is " + correct_number);
+        //System.out.println("Correct number is " + correct_number);
         boolean repeat_guessing_loop = true;
         while (repeat_guessing_loop) {
             System.out.println("What is your guess?");
             int current_guess = scanner_variable.nextInt();
-            System.out.println("You guessed: " + current_guess);
+            //System.out.println("You guessed: " + current_guess);
             if (current_guess == correct_number) {
                 System.out.println("you got it!");
                 repeat_guessing_loop = false;
@@ -57,13 +57,13 @@ public class Guesser {
     
     
     public static void computer_guesser (Scanner scanner_variable) {
-        System.out.println("Now you are in the computer guesser class");
+        //System.out.println("Now you are in the computer guesser class");
         int correct_number = 38;
-        System.out.println("Correct number is " + correct_number);
+        //System.out.println("Correct number is " + correct_number);
         int low = 1;
         int max = 100;
-        System.out.println("The current max is: " + max);
-        System.out.println("The current low is: " + low);
+        //System.out.println("The current max is: " + max);
+        //System.out.println("The current low is: " + low);
         
         boolean repeat_variable = true;
 
@@ -90,7 +90,7 @@ public class Guesser {
 
         }
 
-        System.out.println("The current low is: " + low);
+        //System.out.println("The current low is: " + low);
 
     } // end of computer number guessing class 
 } // end of guesser class
